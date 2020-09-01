@@ -1,0 +1,54 @@
+form {
+    text-align: center;
+    padding: 30px;
+    background-color: #F5B7B1;
+    width: 300px;
+    height: 330px;
+}
+div {
+    text-align: center;
+    padding: 10px;
+    background-color: #F6DDCC;
+    width: 330px;
+    height: 350px;
+    margin: auto;
+}
+p {
+    background-color: #FAE5D3;
+    padding: 5px;
+}
+
+input {
+    width: 210px;
+    height: 18px;
+    font-size: 20px;
+}
+button {
+    width: 280px;
+    height: 25px;
+    border-style: solid;
+    border-width: 0;
+    font-size: 20px;
+    background-color: #FAE5D3;
+}
+button:hover {
+    background: #FFCEA5;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: #FEF2EF;
+    margin: 0px;
+}
+
+#checkBoxInp {
+    width: 15px;
+    padding: 2px;
+}
+
+main {
+    background: #FFE9E4;
+    height: 500px;
+    width: 600px;
+    margin: auto;
+}
