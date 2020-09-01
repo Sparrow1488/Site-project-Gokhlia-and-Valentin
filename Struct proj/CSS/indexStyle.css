@@ -1,0 +1,15 @@
+body {
+    background-color: #FEF2EF;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+header {
+    background: #000;
+    height: 300px;
+}
+
+main {
+    background-color: blue;
+    height: 300px;
+}
