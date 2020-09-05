@@ -18,12 +18,12 @@ function checkBoxFunc(){
         inpPas.type = 'password';
     }
 }
+try{
+    //ОБРАБОТЧИК КНОПКИ SEND
+    sendBtn.addEventListener('click', (e) => {
 
-//ОБРАБОТЧИК КНОПКИ SEND
-sendBtn.addEventListener('click', (e) => {
-    try{
     e.preventDefault();
-    let textLog = inpLog.value.trim();
+    let textLog = inpLog.value.trim()
     let textPass = inpPas.value.trim();
     let hasUser = false;
     for (let item of massLog){
@@ -35,7 +35,8 @@ sendBtn.addEventListener('click', (e) => {
     if(hasUser == false){
         alert('Ошибка авторизации!');
     }
-    } catch(err){
-        console.log(err.massage)
-    }
 })
+} catch(err){
+    console.log(err.massage)
+}
+
